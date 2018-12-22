@@ -1,6 +1,6 @@
+
 @font-face {
     font-family: 'Roboto-Regular';
-    src:url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 html,body{
 	background:#fff;
@@ -57,7 +57,6 @@ h2{
   color:#403b37;
   font-size: 1em;
 }
-/* start menu */
 .navbar-default {
     background-color:#f1b458 !important;
     border-color:#f1b458;
@@ -1019,7 +1018,6 @@ ul.social {
 .products {
   padding: 4em 0;
 }
-/*--menu-drop--*/
 h3.cate {
     color: #fa03bb;
     font-size: 1.5em;
