@@ -49,7 +49,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header-top">
 		<div class="container">
 				<div class="col-sm-4 logo">
-					<h1><a href="index.html">Youth <span>Fashion</span></a></h1>
+					<h1><a href="index.php">Youth <span>Fashion</span></a></h1>
 				</div>
 			<div class="col-sm-4 world">
 						<div class="cart box_1">
@@ -74,7 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 						<ul class="nav navbar-nav nav_1">
 							
-							<li><a href="index.html">Главная</a></li>
+							<li><a href="index.php">Главная</a></li>
 							<li class="dropdown mega-dropdown active">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Женская<span class="caret"></span></a>				
 								<div class="dropdown-menu mega-dropdown-menu">
@@ -82,12 +82,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="tab-content">
 										  <div class="tab-pane active" id="men">
 											<ul class="nav-list list-inline">
-												<li><a href="women.html"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="women.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="women.html"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="women.html"><img src="images/t11.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="women.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="women.html"><img src="images/t12.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="women.php"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="women.php"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="women.php"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="women.php"><img src="images/t11.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="women.php"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="women.php"><img src="images/t12.jpg" class="img-responsive" alt=""/></a></li>
 											</ul>
 										  </div>
 									   </div>
@@ -102,12 +102,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="tab-content">
 										  <div class="tab-pane active" id="men">
 											<ul class="nav-list list-inline">
-												<li><a href="men.html"><img src="images/t10.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="men.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="men.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="men.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="men.html"><img src="images/t5.jpg" class="img-responsive" alt=""/></a></li>
-												<li><a href="men.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="men.php"><img src="images/t10.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="men.php"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="men.php"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="men.php"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="men.php"><img src="images/t5.jpg" class="img-responsive" alt=""/></a></li>
+												<li><a href="men.php"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
 											</ul>
 										  </div>
 										 
@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									                   
 								</div>				
 							</li>
-							<li><a href="products.html">Товары</a></li>
+							<li><a href="products.php">Товары</a></li>
 							<li class="last"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdpT5LjtEBk5XJf_ARz9dGKimPEy5WAg1x2nftYHBX6NxmnFQ/viewform?embedded=true" target="_blank" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0"><p><button class="w3-button w3-black" type="submit"> Обратная связь</span></a>
 							</li>
 						</ul>
@@ -162,7 +162,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="breadcrumbs">
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Главная</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Главная</a></li>
 				<li class="active">Женский</li>
 			</ol>
 		</div>
@@ -217,40 +217,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3 class="cate">лучшие товары </h3>
 					<div class="product-go">
 						<div class=" fashion-grid">
-							<a href="best.html"><img class="img-responsive " src="images/pr.jpg" alt=""></a>	
+							<a href="best.php"><img class="img-responsive " src="images/pr.jpg" alt=""></a>	
 						</div>
 						<div class=" fashion-grid1">
-							<h6 class="best2"><a href="best.html" >Чернаяя кофта из новой колекций </a></h6>
+							<h6 class="best2"><a href="best.php" >Чернаяя кофта из новой колекций </a></h6>
 							<span class=" price-in1">6 000тг</span>
 						</div>	
 						<div class="clearfix"> </div>
 					</div>
 					<div class="product-go">
 						<div class=" fashion-grid">
-							<a href="best.html"><img class="img-responsive " src="images/pr1.jpg" alt=""></a>	
+							<a href="best.php"><img class="img-responsive " src="images/pr1.jpg" alt=""></a>	
 						</div>
 						<div class=" fashion-grid1">
-							<h6 class="best2"><a href="best.html" >черное платье из итальянской колекций</a></h6>
+							<h6 class="best2"><a href="best.php" >черное платье из итальянской колекций</a></h6>
 							<span class=" price-in1">15 000тг</span>
 						</div>	
 						<div class="clearfix"> </div>
 					</div>
 					<div class="product-go">
 						<div class=" fashion-grid">
-							<a href="best.html"><img class="img-responsive " src="images/pr2.jpg" alt=""></a>	
+							<a href="best.php"><img class="img-responsive " src="images/pr2.jpg" alt=""></a>	
 						</div>
 						<div class=" fashion-grid1">
-							<h6 class="best2"><a href="best.html" >Красная стильная молодежная футболка </a></h6>
+							<h6 class="best2"><a href="best.php" >Красная стильная молодежная футболка </a></h6>
 							<span class=" price-in1">3 500тг</span>
 						</div>	
 						<div class="clearfix"> </div>
 					</div>	
 					<div class="product-go">
 						<div class=" fashion-grid">
-							<a href="best.html"><img class="img-responsive " src="images/pr3.jpg" alt=""></a>	
+							<a href="best.php"><img class="img-responsive " src="images/pr3.jpg" alt=""></a>	
 						</div>
 						<div class=" fashion-grid1">
-							<h6 class="best2"><a href="best.html" >Женская стильная блузка</a></h6>
+							<h6 class="best2"><a href="best.php" >Женская стильная блузка</a></h6>
 							<span class=" price-in1">7 000тг</span>
 						</div>	
 						<div class="clearfix"> </div>

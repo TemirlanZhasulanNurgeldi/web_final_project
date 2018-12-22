@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Дек 22 2018 г., 13:30
+-- Время создания: Дек 22 2018 г., 12:01
 -- Версия сервера: 10.1.36-MariaDB
--- Версия PHP: 7.2.10
+-- Версия PHP: 7.2.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -108,27 +108,6 @@ INSERT INTO `products` (`ID`, `Image`, `Name`, `Price`, `code`) VALUES
 (10, 'images\\kos.jpg', 'Suit', 26500, 18),
 (11, 'images\\kos2.jpg', 'Suit', 20000, 15),
 (12, 'images\\kos3.jpg', 'Suit', 28000, 19);
-
--- --------------------------------------------------------
-
---
--- Структура таблицы `users`
---
-
-CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `username` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `user_type` varchar(20) NOT NULL,
-  `password` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Дамп данных таблицы `users`
---
-
-INSERT INTO `users` (`id`, `username`, `email`, `user_type`, `password`) VALUES
-(0, 'MRX', 'Jesse1996@mail.ru', 'user', 'b5372d911d0da1f1ac4c1f8ac30ed158');
 
 -- --------------------------------------------------------
 
