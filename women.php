@@ -2,7 +2,7 @@
     $dbhost = 'localhost';
          $dbuser = 'root';
          $dbpass = '';
-         $conn = mysqli_connect($dbhost, $dbuser, $dbpass, 'woman');
+         $conn = mysqli_connect($dbhost, $dbuser, $dbpass, 'products');
    
          if(! $conn ){
             die('Could not connect: ' . mysqli_error());
