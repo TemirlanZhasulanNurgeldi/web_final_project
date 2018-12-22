@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Домашняя страница</title>
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<style>
 	.header {
@@ -23,7 +23,7 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Admin - Home Page</h2>
+		<h2>Страница администратора</h2>
 	</div>
 	<div class="content">
 		<!-- notification message -->
@@ -49,8 +49,8 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="home.php?logout='1'" style="color: red;">logout</a>
-						&nbsp; <a href="create_user.php"> + add user</a>
+						<a href="home.php?logout='1'" style="color: red;">Выйти</a>
+						&nbsp; <a href="create_user.php"> + добавить пользователя</a>
 					</small>
 
 				<?php endif ?>

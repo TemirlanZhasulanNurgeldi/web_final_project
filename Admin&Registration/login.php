@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration</title>
+	<title>Регистрация</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 	<div class="header">
-		<h2>Login</h2>
+		<h2>Логин</h2>
 	</div>
 	
 	<form method="post" action="login.php">
@@ -16,18 +16,18 @@
 		<?php echo display_error(); ?>
 
 		<div class="input-group">
-			<label>Username</label>
+			<label>Пользователь</label>
 			<input type="text" name="username" >
 		</div>
 		<div class="input-group">
-			<label>Password</label>
+			<label>Пароль</label>
 			<input type="password" name="password">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="login_btn">Login</button>
+			<button type="submit" class="btn" name="login_btn">Войти</button>
 		</div>
 		<p>
-			Not yet a member? <a href="register.php">Sign up</a>
+			Вы еще не пользователь? <a href="register.php">Зарегистрироватся</a>
 		</p>
 	</form>
 

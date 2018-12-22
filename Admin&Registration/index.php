@@ -2,19 +2,19 @@
 	include('functions.php');
 
 	if (!isLoggedIn()) {
-		$_SESSION['msg'] = "You must log in first";
+		$_SESSION['msg'] = "Сначала вы должны войти";
 		header('location: login.php');
 	}
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Домашняя страница</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="header">
-		<h2>Home Page</h2>
+		<h2>Домашняя страница</h2>
 	</div>
 	<div class="content">
 		<!-- notification message -->
@@ -39,7 +39,7 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="index.php?logout='1'" style="color: red;">logout</a>
+						<a href="index.php?logout='1'" style="color: red;">Выйти</a>
 					</small>
 
 				<?php endif ?>

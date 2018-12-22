@@ -37,16 +37,16 @@
 
 		// form validation: ensure that the form is correctly filled
 		if (empty($username)) { 
-			array_push($errors, "Username is required"); 
+			array_push($errors, "Требуется вводить пользователь"); 
 		}
 		if (empty($email)) { 
-			array_push($errors, "Email is required"); 
+			array_push($errors, "Требуется вводить Email"); 
 		}
 		if (empty($password_1)) { 
-			array_push($errors, "Password is required"); 
+			array_push($errors, "Требуется вводить Пароль"); 
 		}
 		if ($password_1 != $password_2) {
-			array_push($errors, "The two passwords do not match");
+			array_push($errors, "Два пароля не совподают");
 		}
 
 		// register user if there are no errors in the form
@@ -69,7 +69,7 @@
 				$logged_in_user_id = mysqli_insert_id($db);
 
 				$_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
-				$_SESSION['success']  = "You are now logged in";
+				$_SESSION['success']  = "Теперь вы вошли";
 				header('location: index.php');				
 			}
 
@@ -97,10 +97,10 @@
 
 		// make sure form is filled properly
 		if (empty($username)) {
-			array_push($errors, "Username is required");
+			array_push($errors, "Требуется пользователь");
 		}
 		if (empty($password)) {
-			array_push($errors, "Password is required");
+			array_push($errors, "Требуется пароль");
 		}
 
 		// attempt login if no errors on form
@@ -116,16 +116,16 @@
 				if ($logged_in_user['user_type'] == 'admin') {
 
 					$_SESSION['user'] = $logged_in_user;
-					$_SESSION['success']  = "You are now logged in";
+					$_SESSION['success']  = "Теперь вы вошли";
 					header('location: admin/home.php');		  
 				}else{
 					$_SESSION['user'] = $logged_in_user;
-					$_SESSION['success']  = "You are now logged in";
+					$_SESSION['success']  = "Теперь вы вошли";
 
 					header('location: index.php');
 				}
 			}else {
-				array_push($errors, "Wrong username/password combination");
+				array_push($errors, "Не правильная комбинация пользователя и пароля");
 			}
 		}
 	}
