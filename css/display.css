@@ -1,0 +1,83 @@
+body{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.header{
+	display: block;
+}
+.header a{
+	text-decoration: none;
+}
+.header-top .container{
+	display:flex;
+	justify-content:space-around;
+	
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+.content{
+	flex-grow: 1;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+}
+.con-tp{
+	flex-grow: 1;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+}
+.c-btm{
+	flex-grow: 1;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+}
+.content-top1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.content-top1 div{
+	margin: 15px;
+}
+.content-top2{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	text-align: center;
+}
+.content-top3 .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.content-top3 .container div{
+	margin: 15px;
+}
+.footer-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-bottom .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-bottom .container p{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+<link href="display.css" rel="stylesheet" type="text/css">
