@@ -1,4 +1,4 @@
-<?php include('Admin&Registration/functions.php') ?>
+<?php include('Admin/functions.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,18 +37,7 @@
             			  	<li><a href="men.php">Мужская</a></li>
               				<li><a href="products.php">Товары</a></li>
               				<li class="last"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdpT5LjtEBk5XJf_ARz9dGKimPEy5WAg1x2nftYHBX6NxmnFQ/viewform?embedded=true" target="_blank" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0"><p><button class="w3-button w3-black" type="submit">Обратная связь</span></a></li>					
-							<li class='active' style='float:right;'>
-  <?php 
-  if($_SESSION['user']==true)
-    { 
-      echo $_SESSION["username"];
-      echo '<a href="../function.php"><span>Выйти</span></a></li>';//logout
-    }
-  elseif($_SESSION['user']==false)
-    {
-      echo '<a href="Admin&Registration/login.php"><span>Логин/Регистрация</span></a></li>';
-    }
-  ?>
+							
 						</ul>
 					 </div>
 				  
